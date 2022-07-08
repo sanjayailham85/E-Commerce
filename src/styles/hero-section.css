@@ -1,0 +1,88 @@
+.hero__content {
+    padding-top: 70px;
+}
+
+.hero__title{
+    font-style: 2.5rem;
+    line-height: 55px;
+}
+
+.hero__title span {
+    color: rgb(22, 128, 128);
+}
+
+.hero__content p{
+    line-height: 30px;
+    font-style: 1rem;
+    color: #777;
+}
+
+.hero__btns button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.order__btn {
+    background:rgb(22, 128, 128);
+    color: #fff;
+    transition: .6s;
+    }
+
+.order__btn:hover {
+    background: rgb(8, 69, 69);
+}
+
+.order__btn a:hover {
+    color: rgb(22, 128, 128);
+}
+
+.order__btn a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.order__btn a:hover {
+        color: #fff;
+    }
+
+.all__devices-btn {
+    background: transparent;
+    border: 1px solid rgb(22, 128, 128) !important;
+    transition: .6s;
+}
+
+.all__devices-btn a{
+    text-decoration: none;
+}
+
+.all__devices-btn a:hover {
+    color: rgb(22, 128, 128);
+}
+
+.all__devices-btn:hover {
+    border: rgb(27, 68, 68);
+}
+
+@media only screen and (max-width:992px) {
+  .hero__btns a{
+    font-size: 14px;
+  }
+}
+
+.hero__service p {
+    color: rgb(42, 40, 40);
+    font-weight: 600;
+    font-style: 0.9rem;
+}
+
+.shipping__icon i {
+    padding: 5px;
+    background: rgb(22, 128, 128) ;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500 !important;
+}

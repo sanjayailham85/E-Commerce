@@ -1,0 +1,37 @@
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.paginationBttns a{
+    padding: 7px 13px;
+    background: rgb(12, 93, 93);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.paginationBttns a:hover{
+    background: rgb(7, 58, 58);
+}
+
+@media only screen and (max-width:425px) {
+    .paginationBttns {
+        padding-left: 10px;
+    }
+    
+    .paginationBttns a {
+        font-size: .8rem;       
+    }   
+}

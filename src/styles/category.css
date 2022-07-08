@@ -1,0 +1,38 @@
+
+.category__item {
+    background: rgba(150, 230, 230, 0.398);
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.category__item:hover {
+    transform: translateY(-15px);
+}
+
+@media only screen and (max-width: 768px) {
+    .category__item {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .category__img img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .category__item {
+        margin-bottom: 0;
+        
+    }
+
+    .category__item h6{
+        font-size: 0.8rem;
+    }
+
+}

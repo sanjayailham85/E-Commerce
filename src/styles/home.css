@@ -1,0 +1,212 @@
+.hero__content {
+    padding: 5px;
+}
+
+.feature__subtitle {
+    color: rgb(12, 93, 93);
+}
+
+.feature__text {
+    color: #777;
+}
+
+.feature__item p{
+    color: #777;
+}
+
+.device__category {
+    background: rgba(121, 220, 220, 0.564);
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.device__category button {
+    border:none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+}
+
+.why__img img {
+    width: 100%;
+}
+
+.hero__img img{
+    width: 100%;
+}
+
+.device__category button img{
+    width: 30px;
+    height: 30px;
+}
+
+.deviceBtnActive {
+    background: #fff !important;
+    border-radius: 5px;
+    color: rgb(12, 93, 93) ;
+}
+
+.device__shop-title span{
+    color: rgb(12, 93, 93);
+}
+
+.device__shop-desc {
+    color: #777;
+    line-height: 28px;
+}
+
+.choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose__us-title i {
+    color: rgb(12, 93, 93) ;
+    font-weight: 500 !important;
+}
+
+.choose__us-desc {
+    color: #777;
+}
+
+.testimonial__subtitle {
+    color: rgb(12, 93, 93) ;
+}
+
+.testimonial__title span{
+    color: rgb(12, 93, 93);
+}
+
+.testimonial__desc {
+    color: #777;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__content p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .hero__title{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .hero__btns button{
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+
+    .hero__service p{
+        justify-content: center;
+    }
+
+    .feature__item h5 {
+        font-size: 0.9rem;
+    }
+
+    .feature__item p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .feature__subtitle {
+        font-size: 1rem;
+    }
+
+    .feature__text {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .device__category {
+        padding: 10px;
+    }
+    .device__category button {
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+
+    .device__category button img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .device__shop-desc {
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+
+    .choose__us-title   {
+        font-size: .8rem;
+    }
+
+    .choose__us-desc {
+        font-size: .7rem;
+    }
+
+    .testimonial__subtitle {
+        font-size: 1rem;
+    }
+
+    .testimonial__desc {
+        font-size: .8rem;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__content p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .hero__title{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .hero__btns {
+        justify-content: center;
+    }
+
+    .hero__btns button{
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+
+    .hero__service {
+        justify-content: center;
+    }
+
+    .device__category button img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .why__img {
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,125 @@
+.footer {
+    padding: 50px 0px;
+    background: rgb(226, 253, 255);
+    margin-top: 50px;
+}
+
+.footer__logo img{
+    width: 100px;
+}
+
+.footer__logo h5 {
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    padding-left: 37px;
+}
+
+.footer__logo p {
+    font-size: 0.7rem;
+    color: #333;
+    line-height: 28px;
+}
+
+.delivery__time-item {
+   background: transparent !important;
+}
+
+.delivery__time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+}
+
+.delivery__time-item p {
+    color: #333;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.newsletter {
+    padding: 7px ;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+.newsletter span {
+    background: rgb(22, 128, 128);
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.newsletter span i {
+    color: #fff;
+}
+
+.newsletter input::placeholder {
+    color: #333;
+}
+
+@media only screen and (max-width:1024px) {
+    .newsletter span {
+        margin-left: -40px;
+    }
+
+}
+
+.social__links span i {
+    border-radius: 50%;
+    background: rgb(22, 128, 128);
+    color: #fff;
+    padding: 5px;
+    border: 1px #333 solid;
+}
+
+.copyright__text {
+    font-style: 0.8rem;
+    color: rgb(22, 128, 128);
+}
+
+@media only screen and (max-width:576px) {
+    .social__links {
+        justify-content: center;
+    }
+
+    .social__links p {
+        font-size: .8rem;
+    }
+
+    .social__links span {
+        padding: 4px;
+    }
+
+    .social__links span a {
+        font-size: 0.7rem;
+    }
+
+    .copyright__text {
+        font-size: .8rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .footer__title {
+        margin-top: 15px;
+    }
+}

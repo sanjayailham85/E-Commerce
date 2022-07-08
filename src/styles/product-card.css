@@ -1,0 +1,117 @@
+.product__item {
+    border: 1px solid rgba(12, 93, 93, 0.459);
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.product__img img {
+    margin-bottom: 20px;
+    transition: 0.4s;
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.product__img:hover {
+    transform: scale(1.1);
+}
+
+.product__content h5 a {
+    color: #212245;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.product__content h5 {
+    margin-bottom: 30px;
+    
+}
+
+.product__price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #212245;
+    text-align: center;
+}
+
+.AddToCart__btn {
+    border: none;
+    padding: 7px 25px;
+    background: rgb(12, 93, 93);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.4s;
+    
+}
+
+.AddToCart__btn:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:1024px) {
+
+    .AddToCart__btn {
+        padding: 5px 15px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+  
+    .product__content h5 a{
+        font-size: 0.8rem;
+    }
+    .AddToCart__btn {
+        padding: 5px 15px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+  
+    .product__content h5 a{
+        font-size: 0.8rem;
+    }
+    .AddToCart__btn {
+        padding: 5px 15px;
+        font-size: .8rem;
+    }
+
+    .product__price {
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: #212245;
+    }
+}
+
+@media only screen and (max-width:375px) {
+  
+    .product__content h5 a{
+        font-size: 0.8rem;
+    }
+    .AddToCart__btn {
+        padding: 5px 10px;
+        font-size: .7rem;
+    }
+
+    .product__price {
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: #212245;
+    }
+
+    .product__img img {
+        width: 80%;
+    }
+
+    .Toastify__toast {
+        width: 60%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 10rem;
+    }
+}
