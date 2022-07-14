@@ -1,10 +1,12 @@
 .footer {
-    padding: 50px 0px;
+    padding-top: 30px;
     background: rgb(226, 253, 255);
     margin-top: 50px;
+    
 }
 
 .footer__logo img{
+    
     width: 100px;
 }
 
@@ -16,8 +18,8 @@
 }
 
 .footer__logo p {
-    font-size: 0.7rem;
-    color: #333;
+    font-size: 0.8rem;
+    color: #777;
     line-height: 28px;
 }
 
@@ -28,22 +30,22 @@
 .delivery__time-item span{
     font-weight: 600;
     font-size: 1rem;
-    color: #333;
+    color: #777;
 }
 
 .delivery__time-item p {
-    color: #333;
+    color: #777;
 }
 
 .footer__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.1rem;
-    color: #333;
+    color: #777;
 }
 
 .newsletter {
     padding: 7px ;
-    border: 1px solid #333;
+    border: 1px solid #777;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -63,6 +65,7 @@
 .newsletter span {
     background: rgb(22, 128, 128);
     padding: 7px 10px;
+    margin-left: -40px;
     cursor: pointer;
     border-radius: 15%;
 }
@@ -75,25 +78,53 @@
     color: #333;
 }
 
-@media only screen and (max-width:1024px) {
-    .newsletter span {
-        margin-left: -40px;
-    }
+.footer__title {
+    color: #777;
+}
 
+.footer__b {
+    border-top: 1px solid rgb(195, 220, 222) ;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 0.9rem;
 }
 
 .social__links span i {
     border-radius: 50%;
-    background: rgb(22, 128, 128);
     color: #fff;
     padding: 5px;
-    border: 1px #333 solid;
+    border: 1px rgb(22, 128, 128) solid;
+}
+
+.social__links span a{
+    text-decoration: none;
+}
+
+#fb {
+    background: #3b5998;
+}
+
+#github {
+    background: #171515 ;
+}
+
+#ig {
+    background: #E1306C ;
+}
+
+.social__links p{
+    color: #777;
+}
+
+p {
+    color: #777;
 }
 
 .copyright__text {
     font-style: 0.8rem;
     color: rgb(22, 128, 128);
 }
+
 
 @media only screen and (max-width:576px) {
     .social__links {

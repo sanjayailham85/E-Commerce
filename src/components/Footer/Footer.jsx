@@ -10,9 +10,9 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="4" sm="6">
-            <div className="footer__logo text-start">
+            <div className="footer__logo justify-content-center">
               <img src={logo} alt="logo" />
-              <h5>----</h5>
+
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
                 in.
@@ -26,9 +26,6 @@ const Footer = () => {
               <ListGroupItem className="delivery__time-item border-0 ps-0">
                 <span>Sunday - Thursday</span>
                 <p>10:00am - 11:00pm</p>
-              </ListGroupItem>
-
-              <ListGroupItem className="delivery__time-item border-0 ps-0">
                 <span>Friday - Saturday</span>
                 <p>OFF Day</p>
               </ListGroupItem>
@@ -40,14 +37,8 @@ const Footer = () => {
             <ListGroup className="delivery__time-list">
               <ListGroupItem className="delivery__time-item border-0 ps-0">
                 <p>Location: Bandar Lampung</p>
-              </ListGroupItem>
-
-              <ListGroupItem className="delivery__time-item border-0 ps-0">
-                <span>Phone: 08572637298</span>
-              </ListGroupItem>
-
-              <ListGroupItem className="delivery__time-item border-0 ps-0">
-                <span>Email: devices@gmail.com</span>
+                <p>Phone: 08572637298</p>
+                <p>Email: devices@gmail.com</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -64,35 +55,34 @@ const Footer = () => {
           </Col>
         </Row>
 
-        <Row>
-          <Col lg="6" md="6" className="mt-5 ">
+        <Row className="footer__b">
+          <Col lg="6" md="6" className="mt-3">
             <p className="copyright__text">
               Copyright - 2022, website made by Sanjaya Ilham. All Rights
               Reserved.
             </p>
           </Col>
 
-          <Col lg="6" md="6" className="mt-5">
+          <Col lg="6" md="6" className="mt-3">
             <div
               className="social__links d-flex align-items-center
-                        gap-4 justify-content-end"
+                        gap-2 justify-content-end"
             >
-              <p className="m-0">Follow: </p>
               <span>
                 <Link to="">
-                  <i className="ri-facebook-line"></i>
-                </Link>
-              </span>
-
-              <span>
-                <Link to="https://github.com/sanjayailham85">
-                  <i className="ri-github-line"></i>
+                  <i id="fb" className="ri-facebook-line"></i>
                 </Link>
               </span>
 
               <span>
                 <Link to="">
-                  <i className="ri-instagram-line"></i>
+                  <i id="github" className="ri-github-line"></i>
+                </Link>
+              </span>
+
+              <span>
+                <Link to="">
+                  <i id="ig" className="ri-instagram-line"></i>
                 </Link>
               </span>
             </div>
