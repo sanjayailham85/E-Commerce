@@ -326,8 +326,6 @@ const Home = () => {
             </Row>
           </Container>
         </section>
-
-        <ToastContainer />
       </Container>
     </Helmet>
   );

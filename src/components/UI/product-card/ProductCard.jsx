@@ -8,7 +8,7 @@ import '../../../styles/product-card.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ProductCard = (props) => {
-  const { id, title, image01, price, desc } = props.item;
+  const { id, title, image01, price } = props.item;
   const dispatch = useDispatch();
 
   const addToCart = () => {
