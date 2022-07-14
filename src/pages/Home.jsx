@@ -79,7 +79,7 @@ const Home = () => {
       <Container fluid>
         <section>
           <Container>
-            <Row>
+            <Row className="mt-5">
               <Col lg="6" md="6">
                 <div className="hero__content">
                   <h5 className="mb-3">Lorem ipsum dolor sit amet</h5>
