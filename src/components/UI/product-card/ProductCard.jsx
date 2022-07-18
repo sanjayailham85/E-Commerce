@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { cartActions } from '../../../store/shopping-cart/cartSlice';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 import '../../../styles/product-card.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ProductCard = (props) => {
-  const { id, title, image01, price, desc } = props.item;
+  const { id, title, image01, price } = props.item;
   const dispatch = useDispatch();
 
   const addToCart = () => {

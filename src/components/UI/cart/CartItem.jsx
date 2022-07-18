@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListGroupItem } from 'reactstrap';
+import { ListGroupItem } from 'reactstrap';
 
 import '../../../styles/cart-item.css';
 
